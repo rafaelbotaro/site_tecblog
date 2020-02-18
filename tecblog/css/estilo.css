@@ -1,0 +1,128 @@
+/*Zerando as configurações*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Body p e h2*/
+
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background: #f3f3f3;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 16.4px;
+    text-align: justify;
+    line-height: 25px;
+    color: #474a51;
+    padding: 0 20px 10px;
+}
+
+h2 {
+    color: #474a51;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 10px;
+    padding-top: 20px;
+}
+
+h4 {
+    color: #474a51;
+    text-align: center;
+    background: #f3f3f3;
+}
+
+/*IDs*/
+
+#navegacao {
+    background: #ffffff;
+    border-bottom: 1px solid #d8d8d8;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#area {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#area-principal {
+    width: 720px;
+    margin: 75px auto 30px;
+}
+
+#logo {
+    float: left;
+    margin-top: 5px;
+}
+
+#menu {
+    float: right;
+    padding: 15px;
+}
+
+#postagem {
+    background: #FFFFFF;
+}
+
+/*Formatação do menu*/
+
+a {
+    text-decoration: none;
+    padding: 7px 15px;
+}
+
+a:link {
+    color: #474a51;
+}
+
+a:visited {
+    color: #474a51;
+}
+
+a:hover {
+    color: #FFFFFF;
+    background: #FD8A00;
+}
+
+a:active {
+    color:
+     #474a51;
+}
+
+/*Classes*/
+
+.laranja {
+    color: 	#FD8A00;
+}
+
+.cinza {
+    color: #474a51;
+}
+
+.data-postagem {
+    font-size: 14px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: #FD8A00;
+    padding: 10px 10px ;
+    text-align: center;
+}
+
+.postado {
+    border-left: 5px solid #FD8A00;
+    padding-left: 5px;
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #474a51;
+}
